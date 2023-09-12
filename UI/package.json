@@ -1,0 +1,70 @@
+{
+	"name": "my-widget",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@craco/craco": "^6.1.0",
+		"@headlessui/react": "^1.7.15",
+		"@heathmont/moon-core-tw": "^10.0.1",
+		"@heathmont/moon-icons-tw": "^9.28.4",
+		"@heathmont/moon-themes-tw": "^10.4.0",
+		"@heroicons/react": "^2.0.18",
+		"@purple-pay/sdk": "^0.1.6",
+		"@rainbow-me/rainbowkit": "^0.12.0",
+		"@tailwindcss/postcss7-compat": "^2.0.2",
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"@types/canvas-confetti": "^1.6.0",
+		"@types/react": "^18.2.12",
+		"@types/react-dom": "^18.2.5",
+		"@types/react-lottie": "^1.2.6",
+		"autoprefixer": "^9",
+		"axios": "^1.4.0",
+		"canvas-confetti": "^1.6.0",
+		"clsx": "^1.2.1",
+		"ethers": "^5.7.2",
+		"moment": "^2.29.1",
+		"parcel": "^2.9.2",
+		"postcss": "^8.2.1",
+		"postcss-modules": "^6.0.0",
+		"qr-code-styling": "^1.6.0-rc.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-hot-toast": "^2.4.1",
+		"react-icons": "^4.9.0",
+		"react-loading-skeleton": "^3.3.1",
+		"react-lottie": "^1.2.3",
+		"react-qr-code": "^2.0.11",
+		"react-scripts": "4.0.3",
+		"tailwind-merge": "^1.13.1",
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat",
+		"tailwindcss-rtl": "^0.9.0",
+		"typescript": "^4.5.4",
+		"wagmi": "^0.12.0",
+		"web-vitals": "^0.2.4"
+	},
+	"scripts": {
+		"eject": "react-scripts eject",
+		"start": "craco start",
+		"build": "craco build",
+		"test": "craco test",
+		"build:edit": "parcel build src/index.tsx --no-source-maps --dist-dir public/widget",
+		"production-css": "NODE_ENV=production parcel build src/index.css --dist-dir public/css --public-url /css --no-content-hash --no-source-maps"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not op_mini all"
+	],
+	"devDependencies": {
+		"@parcel/bundler-experimental": "^2.7.0",
+		"buffer": "^6.0.3"
+	}
+}
